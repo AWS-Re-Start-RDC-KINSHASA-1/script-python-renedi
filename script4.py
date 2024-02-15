@@ -5,3 +5,5 @@ def add_user_to_group():
     print("La liste doit être séparée par des espaces, par exemple:\r\n group1 group2 groupe3")
     print("Les groupes disponibles sont :\r\n " + output)
     chosenGroups = str(input("Groups: "))
+
+add_user_to_group()

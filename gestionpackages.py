@@ -5,3 +5,5 @@ def install_or_remove_packages():
         iOrR = input().upper()
         if iOrR == "I":iOrR = "install"
         elif iOrR == "R":iOrR = "remove"
+
+install_or_remove_packages()
